@@ -1,18 +1,18 @@
 {
-	"name": "smart-cookbook-monorepo",
+	"name": "smartcookbook-monorepo",
 	"version": "1.0.0",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jonasspaller/smart-cookbook.git"
+		"url": "git+https://github.com/jonasspaller/smartcookbook.git"
 	},
 	"keywords": [],
 	"author": "Jonas Spaller",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jonasspaller/smart-cookbook/issues"
+		"url": "https://github.com/jonasspaller/smartcookbook/issues"
 	},
-	"homepage": "https://github.com/jonasspaller/smart-cookbook#readme",
+	"homepage": "https://github.com/jonasspaller/smartcookbook#readme",
 	"description": "",
 	"private": true,
 	"workspaces": [
