@@ -1,0 +1,80 @@
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	/* Custom Color Scheme */
+	color: #1e1e24;
+	background-color: #ebf2fa;
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	font-weight: 500;
+	color: #edb458;
+	text-decoration: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button,
+[role="button"] {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	border-bottom: 3px solid #d49d42;
+	/* Dunklerer Rand für 3D-Effekt */
+	padding: 0.8em 1.5em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #edb458;
+	color: #ffffff;
+	cursor: pointer;
+	transition: all 0.15s ease-out;
+}
+
+button:hover,
+[role="button"]:hover {
+	background-color: #f4c06b;
+}
+
+button:active,
+[role="button"]:active {
+	transform: translateY(2px);
+	border-bottom-width: 1px;
+}
+
+.button-outline {
+	background-color: transparent;
+	color: #555;
+	border: 1px solid #ccc;
+	border-bottom: 3px solid #aaa;
+}
+
+.button-outline:hover {
+	background-color: #f0f0f0;
+	border-color: #bbb;
+	border-bottom-color: #999;
+}
+
+.button-outline:active {
+	transform: translateY(2px);
+	border-bottom-width: 1px;
+}
+
+button:focus,
+[role="button"]:focus,
+button:focus-visible,
+[role="button"]:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
